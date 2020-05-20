@@ -3,4 +3,4 @@ const bot = new Discord.Client()
 const cfg = require('./index.json');
 const prefix = ("/");
 
-bot.login(cfg.token)
+bot.login(process.env.token)
